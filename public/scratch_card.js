@@ -42,6 +42,7 @@ $(document).ready(()=>{
   //variables for generated pin frame
   const pinPageLabel = "Scratch Card PINS"
   const pinDisplay=$(".pin-display-page div");
+  const deleteBtn=$("#delete-btn");
   
   
   //functions for styling
@@ -452,6 +453,16 @@ $(document).ready(()=>{
     quantity200Input.val("");
     quantity500Input.val("");
     quantity1000Input.val("");
+  });
+  
+  deleteBtn.on("click", ()=> {
+    $.ajax({
+      url:"http://localhost:3000/cart",
+      method:"DELETE",
+      success:(data,status)=>{
+        alert("cart cleared");
+      }
+    });
   });
   
   

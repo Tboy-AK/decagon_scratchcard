@@ -23,7 +23,7 @@
     
 <!--purchase-->
     <div id="purchase-frame">
-        <button type="button" class="btn btn-default btn-sm cart-button">
+        <button type="button" class="btn btn-default btn-sm cart-button" data-toggle="modal" data-target="#modal-invoice-window">
             <i class="glyphicon glyphicon-shopping-cart"></i> <span id="cartLabel"> Cart</span>
         </button>
         <div class="clear-both-div"></div>
@@ -69,6 +69,7 @@
         </div>
     </div>
 
+
 <!--invoice-->
     <div id="invoice-modal">
         <div class="panel panel-default purchase-table purchase-summary">
@@ -108,7 +109,7 @@
                 <tfoot>
                     <tr class="total-price-row">
                         <th class="price-total-label">Price Total</th>
-                        <th class="price-total-figure"></th>
+                        <th class="price-total-figure" id="price-total-figure"><span>N</span></th>
                     </tr>
                 </tfoot>
             </table>
@@ -121,6 +122,9 @@
 
 <!--generated pins-->
     <div class="pin-display-page">
+      <div>
+        <button id="delete-btn">Delete History</button>
+      </div>
     </div>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

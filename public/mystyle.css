@@ -104,7 +104,6 @@ body{
   position: relative;
   background-color: #eeeeee;
   text-align: center;
-  width: 80%;
   height: 300px;
   margin-left: auto;
   margin-right: auto;
@@ -119,6 +118,10 @@ body{
   color: goldenrod;
 }
 
+#price-total-figure span{
+  color: green;
+  font-weight: bolder;
+}
 
 .buy-hold-section{
   position: absolute;
@@ -127,7 +130,6 @@ body{
   text-align: center;
   background-color: #eeeeee;
   border: none;
-  top:30%;
 }
 
 .buy-button{
@@ -139,4 +141,10 @@ body{
 .hold-button{
   color: red;
   width: 100px;
+}
+
+#delete-btn{
+  border-color: darkred;
+  font-size: 10px;
+  background-color: red;
 }
