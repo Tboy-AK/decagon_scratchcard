@@ -1,0 +1,150 @@
+body{
+  background-color: gold;
+  color: goldenrod;
+}
+
+#user-login-frame{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  color: goldenrod;
+  margin-bottom: 10em;
+}
+
+#sign-up{
+  color: purple;
+}
+
+#sign-up-link{
+  display: block;
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: right;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.input-group{
+  clear: both;
+  margin-bottom: 10px;
+}
+
+#basic-addon2{
+  width: 400px;
+}
+
+#signup-frame{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+  margin-bottom: 50px;
+}
+
+#sign-in-link{
+  display: block;
+  width: auto;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #ffffff;
+}
+
+#sign-in-anchor{
+  color: purple;
+}
+
+.signBtn{
+  display: block;
+}
+
+.quantity input{
+  width: 50%;
+}
+
+#purchase-frame{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10em;
+  /*display: none;*/
+}
+
+.quantity{
+  width: 30%
+}
+
+.amount{
+  width: 30%;
+}
+
+#purchase-frame .btn-sm{
+  display: block;
+  float: right;
+  font-size: 14pt;
+  padding: 2px 5px;
+  color: goldenrod;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+#cartLabel{
+  font-size: 11pt;
+  color: goldenrod;
+}
+
+.clear-both-div{
+  clear: both;
+}
+
+
+#invoice-modal{
+  position: relative;
+  background-color: #eeeeee;
+  text-align: center;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  /*display: none;*/
+}
+
+.purchase-summary{
+  width: 60%;
+  position: absolute;
+  left:0;
+  color: goldenrod;
+}
+
+#price-total-figure span{
+  color: green;
+  font-weight: bolder;
+}
+
+.buy-hold-section{
+  position: absolute;
+  width: 40%;
+  right: 0;
+  text-align: center;
+  background-color: #eeeeee;
+  border: none;
+}
+
+.buy-button{
+  color: goldenrod;
+  width: 100px;
+  margin-bottom: 30px;
+}
+
+.hold-button{
+  color: red;
+  width: 100px;
+}
+
+#delete-btn{
+  border-color: darkred;
+  font-size: 10px;
+  background-color: red;
+}

@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "tobi_akanji",
+      "email": "tobia@gmail.com",
+      "phone_number": "08028108283",
+      "rank": "Admin",
+      "password": "billy01"
+    },
+    {
+      "id": 2,
+      "username": "dami_afo",
+      "email": "dami@dani.com",
+      "phone_number": "+234",
+      "rank": "Client",
+      "password": "natty01"
+    }
+  ],
+  "cart": [
+    {
+      "id": "1",
+      "card": "200",
+      "pin": "21137277364924959"
+    },
+    {
+      "id": "2",
+      "card": "200",
+      "pin": "24818223762525669"
+    },
+    {
+      "id": "3",
+      "card": "500",
+      "pin": "58627591051355844"
+    },
+    {
+      "id": "4",
+      "card": "500",
+      "pin": "51519501993054147"
+    }
+  ],
+  "card_history": [
+    {
+      "id": "1",
+      "card": "200",
+      "pin": "23424257068124490"
+    },
+    {
+      "id": "2",
+      "card": "500",
+      "pin": "59103529457156701"
+    },
+    {
+      "id": "3",
+      "card": "500",
+      "pin": "58627591051355844"
+    },
+    {
+      "id": "4",
+      "card": "500",
+      "pin": "51519501993054147"
+    }
+  ]
+}
